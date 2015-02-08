@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html ng-app>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="http://necolas.github.io/normalize.css/3.0.2/normalize.css">
+    <link rel="stylesheet" type="text/css" href="animate.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.12/angular.min.js"></script>
+  <script src="src/jquery.typer.js"></script>
+    <style type="text/css">
+      h1{
+        font-family: "Helvetica Neue", Sans-serif;
+        font-weight: 100;
+        font-size: 4.5em;
+        margin-top: -10px;
+
+      }
+      label{
+        font-family: "Helvetica Neue", Sans-serif;
+        font-weight: 100;
+      }
+      section{
+        position: absolute;
+        height: 100%;
+        width: 100%;
+      }
+      img{
+        width: 200px;
+        height: 200px;
+        margin-top:8px;
+      }
+      button{
+        font-family: "Helvetica Neue", Sans-serif;
+        font-weight: 100;
+        padding: 5px 35px 5px 35px;
+        background-color: transparent;
+        border: 1px black solid;
+        font-size: 2.5em;
+      }
+      div{
+        background-color: rgb(90,90,90);
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        padding: 20px 0px 20px 0px;
+      }
+      p{
+        font-family: "Helvetica Neue" , Sans-serif;
+        font-weight: 100;
+        color: white;
+        font-size: 30px;
+      }
+      header{
+        background-color: rgb(140,140,140);
+        position: absolute;
+        bottom: 130px;
+        width: 100%;
+
+      }
+      h2{
+        font-family: "Helvetica Neue", Sans-serif;
+        font-weight: 100;
+        font-style: 2em;
+      }
+      #card{
+        position: absolute;
+        background-color: white;
+
+      }
+    </style>
+  </head>
+  <body>
+  <section>
+    <center>
+      
+        <img src="mmmmm.png">
+        <h1>AutoVest</h1>
+        <h2 style="margin-top:-30px;">AutoVest is an automatic <span data-typer-targets="Vendor.,Stock Exchange.,Hedge Fund." style='font-familiy:"Helvetica Neue", sans-serif;font-weight:100;font-size:1em;'>Money Manager.</span></h2>
+        <a href="#" class="animated fadeIn">
+          <header style="bottom:220px;background-color:rgb(200,200,200)" id="one">
+          <p>Login</p>
+          </header>
+        </a>
+        <a href="#">
+        <header class="animated fadeIn" >
+          <p>Register</p>
+        </header>
+        </a>
+        <a href="#">
+        <div class="animated fadeIn" >
+          <p>About AutoVest</p>
+        </div>
+        </a>
+        </center>
+  </section>
+   <!--  <form action='/submit' method='post'>
+      <label for='name'>Name</label>
+      <input name='name' type='text'></input>
+      <br>
+      <label for='company'>Message</label>
+      <input name='company' type='text'></input>
+      <br>
+      <input type='submit'></input>
+    </form> -->
+    <script type="text/javascript">
+         $(function () {
+      $('[data-typer-targets]').typer();
+    });
+         $(document).ready(function(){
+
+         });
+    </script>
+
+</body> 
+</html> 
